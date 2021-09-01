@@ -1,0 +1,416 @@
+
+.home
+{
+    background-image: url(images/images/intro-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.layer
+{
+    background-color: rgba(0,0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+}
+.nav_bar .logo .lo
+{
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.nav_bar .contact .ul1 .li1 .a1
+{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+    transition: all 3s;
+}
+.nav_bar .contact .ul1 .li1:hover .a1::before
+{
+    content: "";
+    position: absolute;
+    bottom: -5%;
+    left: 0%;
+    width: 70%;
+    height: 1px;    
+    background-color: white;
+}
+
+.home .contant
+{
+    
+    padding-top: 14%;
+}
+.home .contant h1
+{
+    
+    font-size: 72px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.home .contant h2
+{
+   
+    font-size: 40px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.about
+{
+    background-color: #f5f5f5;
+
+}
+.about .contact
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .title
+{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.progress
+{
+    margin:2% 0%;
+}
+.title1
+{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    color: #1e1e1e;
+    position: relative;
+}
+.title1::before
+{
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left: 0%;
+    width: 17%;
+    height: 3px;    
+    background-color: #007aff;
+}
+.services
+{
+    background-color: #f5f5f5;
+}
+.header1
+{
+    font-size: 48px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #1e1e1e;
+    
+}
+.cap
+{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    color: #4e4e4e;
+    position: relative;
+}
+.cap::before
+{
+    content: "";
+    position: absolute;
+    top: 160%;
+    left: 49%;
+    width: 3%;
+    height: 6px;    
+    background-color: #007aff;
+    
+}
+.item .icon
+{
+    padding: 35px;
+    font-size: 40px;
+    background-color: white;
+    border: 10px solid #007aff;
+    border-radius: 50%;
+    transition: background-color 0.5s ,border 0.5s, color 0.5s;
+
+}
+.item:hover .icon
+{
+   
+    background-color: #007aff;
+    border: 10px solid rgba(194, 213, 255, 0.9);
+    color: white;
+   
+
+}
+.services .contant
+{
+    border-radius: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+.title2
+{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    color: #1e1e1e;
+    
+}
+.cap2
+{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+   
+}
+
+.counter
+{
+    background-image: url(images/images/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.layer2
+{
+    background-color: rgb(0, 120, 255 , 0.65);
+    
+
+}
+
+.item1 .icon1
+{
+    padding: 20px;
+    font-size: 26px;
+    color: white;
+    border: 10px solid rgba(194, 213, 255, 0.9);
+    border-radius: 50%;
+    
+}
+
+.title3
+{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    color: white;
+    
+}
+
+.cap3
+{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    color: white;
+   
+}
+
+#counter
+{
+    background-color: #f5f5f5;
+}
+
+.image1
+{
+    width: 100%;
+    transition: transform 1s;
+    
+    
+}
+.image1:hover
+{
+    transform: scale(1.5);
+}
+.content2
+{
+    overflow: hidden;
+}
+.icon3
+{
+    font-size: 40px;    
+}
+.clr
+{
+    clear: both;
+}
+.ctegory
+{
+    color: #007aff;
+}
+
+
+
+.counter1
+{
+    background-image: url(images/images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.layer3
+{
+    background-color: rgb(0, 120, 255 , 0.65);
+    
+
+}
+.pra
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0% 20%;
+}
+.name
+{
+    font-size: 26px;
+    font-weight: 600;
+}
+.bt1
+{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.bt2
+{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+
+.blog .contant
+{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+.spa
+{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    
+}
+.avatar
+{
+    width: 30px;
+}
+.blog
+{
+    background-color: #f5f5f5;
+}
+
+.title5
+{
+    
+    text-decoration: none;
+    color: #1e1e1e;
+
+}
+.category3
+{
+   width: 25%;
+    background-color: #007aff;
+    color: white;
+    border-radius: 4px;
+    bottom: 30px;
+    position: relative;
+
+    
+
+}
+.category4
+{
+    width: 40%;
+    background-color: #007aff;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.btn3
+{
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    transition: background-color 0.5s ,border 0.5s, color 0.5s;
+}
+.btn3:hover
+{
+    background-color: #007aff;
+    border: 5px solid rgba(194, 213, 255, 0.9);
+    color: white;
+}
+
+.pra4
+{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+}
+.list_icon
+{
+    list-style-type: none;
+
+}
+.icon5
+{
+    color: #007aff;
+    margin-right: 10px;
+}
+
+
+.icon6
+{
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid #007aff;
+    border-radius: 50%;
+    transition: background-color 0.5s ,border 0.5s, color 0.5s;
+    margin-left: 10px;
+
+}
+.icon6:hover
+{
+   
+    background-color: #007aff;
+    border: 3px solid rgba(194, 213, 255, 0.9);
+    color: white;
+   
+
+}
+.back
+{
+    position: fixed;
+    color: white;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background-color: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.foter
+{
+    background-color: #0151ad;
+}
+.foter1
+{
+    background-color: #0151ad;
+}
